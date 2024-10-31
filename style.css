@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: yellow;
+}
+nav {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+}
+ul {
+
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-size: 20px;
+  list-style: none;
+}
+li{
+  margin-right: 1em;
+}
+ul li:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+div{
+    font-size:60px;
+    color: palevioletred;
+}
